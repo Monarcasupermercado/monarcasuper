@@ -1,0 +1,59 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monarca Supermercado</title>
+    <style>
+        :root {
+            --primary: #2e7d32;
+            --secondary: #ff9800;
+            --bg: #f4f4f9;
+        }
+        body { font-family: sans-serif; margin: 0; background-color: var(--bg); color: #333; }
+        header { background-color: var(--primary); color: white; padding: 2rem 1rem; text-align: center; }
+        .container { max-width: 800px; margin: 20px auto; padding: 0 15px; }
+        .card { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .btn-wpp { display: block; background: #25D366; color: white; text-align: center; padding: 15px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-top: 15px; }
+        .product-list { display: grid; gap: 10px; }
+        .product-item { display: flex; justify-content: space-between; padding: 10px; border-bottom: 1px solid #eee; }
+        .price { color: #d32f2f; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Monarca Supermercado</h1>
+    <p>Qualidade e preço baixo.</p>
+</header>
+
+<div class="container">
+    <section class="card">
+        <h2>Contato</h2>
+        <p><strong>CNPJ:</strong> 12.360.661/0001-07</p>
+        <p>Entre em contato conosco pelo WhatsApp:</p>
+        <a href="https://wa.me/5511979918605" class="btn-wpp">Chamar no WhatsApp (11) 97991-8605</a>
+    </section>
+
+    <section class="card">
+        <h2>Produtos</h2>
+        <div class="product-list">
+            <div class="product-item"><span>Arroz Branco 5kg</span> <span class="price">R$ 24,90</span></div>
+            <div class="product-item"><span>Feijão Carioca 1kg</span> <span class="price">R$ 7,49</span></div>
+            <div class="product-item"><span>Óleo de Soja 900ml</span> <span class="price">R$ 5,89</span></div>
+            <div class="product-item"><span>Leite Integral 1L</span> <span class="price">R$ 4,50</span></div>
+            <div class="product-item"><span>Café 500g</span> <span class="price">R$ 15,90</span></div>
+            <div class="product-item"><span>Açúcar 1kg</span> <span class="price">R$ 4,20</span></div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p style="text-align: center; font-size: 0.8rem; color: #777;">&copy; 2026 Monarca Supermercado</p>
+</footer>
+
+</body>
+</html>
+
+```
